@@ -24,9 +24,9 @@ declare global {
       "dweb-dialog-warning": DwebDialogConfirmProps;
       "dweb-icon": DwebIconProps;
       "dweb-keyboard": DwebKeyboardProps;
-      "dweb-messager": null;
-      "dweb-navigation": null;
-      "dweb-scanner": null;
+      "dweb-messager": {};
+      "dweb-navigation": {};
+      "dweb-scanner": {};
     }
 
     // topbar

@@ -1,1 +1,1 @@
-import "./componentType.ts";
+export * from "./componentType.ts";
