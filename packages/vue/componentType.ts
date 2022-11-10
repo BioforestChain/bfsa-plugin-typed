@@ -1,0 +1,23 @@
+import { BottomBar } from "@typed/bottombar";
+import { Dialogs } from "@typed/dialogs";
+import { Icon } from "@typed/icon";
+import { Keyboard } from "@typed/keyboard";
+import { StatusBar } from "@typed/statusbar";
+import { TopBar } from "@typed/topbar";
+
+export declare const DwebTopBar: import("vue").DefineComponent<TopBar.DwebTopBar>;
+export declare const DwebTopBarButton: import("vue").DefineComponent<TopBar.DwebTopBarButton>;
+export declare const DwebBottomBar: import("vue").DefineComponent<BottomBar.DwebBottomBar>;
+export declare const DwebBottomBarButton: import("vue").DefineComponent<BottomBar.DwebBottomBarButton>;
+export declare const DwebBottomBarText: import("vue").DefineComponent<BottomBar.DwebBottomBarText>;
+export declare const DwebBottomBarIcon: import("vue").DefineComponent<BottomBar.DwebBottomBarIcon>;
+export declare const DwebStatusBar: import("vue").DefineComponent<StatusBar.DwebStatusBar>;
+export declare const DwebDialogAlert: import("vue").DefineComponent<Dialogs.IAlertConfig>;
+export declare const DwebDialogPrompt: import("vue").DefineComponent<Dialogs.IPromptConfig>;
+export declare const DwebConfirmPrompt: import("vue").DefineComponent<Dialogs.IConfirmConfig>;
+export declare const DwebWarningPrompt: import("vue").DefineComponent<Dialogs.IConfirmConfig>;
+export declare const DwebIcon: import("vue").DefineComponent<Icon.IPlaocIcon>;
+export declare const DwebKeyboard: import("vue").DefineComponent<Keyboard.DwebKeyboard>;
+export declare const DwebMessager: import("vue").DefineComponent<{}>;
+export declare const DwebNavigation: import("vue").DefineComponent<{}>;
+export declare const DwebScanner: import("vue").DefineComponent<{}>;

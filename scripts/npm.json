@@ -1,0 +1,26 @@
+[
+  {
+    "buildFromRootDir": "./packages/react",
+    "mainExports": ".",
+    "buildToRootDir": "./build/react",
+    "importMap": "./import_map.json",
+    "name": "@bfsx/plugin-typed-react",
+    "version": "0.0.1",
+    "lib": ["es2020", "dom"],
+    "devDependencies": {
+      "@types/react": "^18.0.25"
+    }
+  },
+  {
+    "buildFromRootDir": "./packages/vue",
+    "mainExports": ".",
+    "buildToRootDir": "./build/vue",
+    "importMap": "./import_map.json",
+    "name": "@bfsx/plugin-typed-vue",
+    "version": "0.0.1",
+    "lib": ["es2020", "dom"],
+    "devDependencies": {
+      "vue": "^3.2.44"
+    }
+  }
+]
