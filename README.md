@@ -4,6 +4,7 @@
 > 具体@bfsx/plugin组件内容可以看 [组件文档](https://docs.plaoc.com/plugin/)
 
 #### vue3使用
+> npm i @bfsx/plugin-typed-vue --save
 ```vue
 <script lang="ts" setup>
 import { BfcsTopBar } from "@bfsx/plugin";
@@ -18,6 +19,7 @@ const title = "vue3";
 </template>
 ```
 #### react使用
+> npm i @bfsx/plugin-typed-react --save
 ```tsx
 import { BfcsTopBar } from "@bfsx/plugin";
 import "@bfsx/plugin-typed-react";
@@ -32,6 +34,7 @@ function App() {
 ```
 
 #### preact使用
+> npm i @bfsx/plugin-typed-preact --save
 ```tsx
 import { BfcsTopBar } from "@bfsx/plugin";
 import "@bfsx/plugin-typed-preact";
