@@ -1,5 +1,18 @@
 [
   {
+    "buildFromRootDir": "./packages/preact",
+    "mainExports": ".",
+    "buildToRootDir": "./build/preact",
+    "importMap": "./import_map.json",
+    "name": "@bfsx/plugin-typed-preact",
+    "version": "0.0.1",
+    "lib": ["es2020", "dom"],
+    "typeCheck": false,
+    "devDependencies": {
+      "preact": "^10.11.2"
+    }
+  },
+  {
     "buildFromRootDir": "./packages/react",
     "mainExports": ".",
     "buildToRootDir": "./build/react",

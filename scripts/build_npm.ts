@@ -14,6 +14,7 @@ export const doBuid = async (config: {
   buildToRootDir: string;
   importMap?: string;
   lib?: (LibName | string)[];
+  typeCheck?: boolean;
   devDependencies?: {
     [packageName: string]: string;
   };
@@ -54,7 +55,7 @@ export const doBuid = async (config: {
      * @TODO should ignore errors:
      * 1. TS2691
      */
-    typeCheck: true,
+    typeCheck: config.typeCheck ?? true,
     shims: { deno: "dev" },
     compilerOptions: {
       target: "ES2020",
@@ -179,5 +180,5 @@ export const doBuildFromJson = async (file: string, args = Deno.args) => {
 
 if (import.meta.main) {
   // deno-lint-ignore no-explicit-any
-  await doBuildFromJson((import.meta as any).resolve(`./npm.json`));
+  await doBuildFromJson((import.meta as any).resolve(`./npm.test.json`));
 }
