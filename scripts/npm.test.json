@@ -1,15 +1,15 @@
 [
   {
-    "buildFromRootDir": "./packages/preact",
+    "buildFromRootDir": "./packages/angular",
     "mainExports": ".",
-    "buildToRootDir": "./build/preact",
+    "buildToRootDir": "./build/angular",
     "importMap": "./import_map.json",
-    "name": "@bfsx/plugin-typed-preact",
+    "name": "@bfsx/plugin-typed-angular",
     "version": "0.0.1",
     "lib": ["es2020", "dom"],
-    "typeCheck": false,
+    "typeCheck": true,
     "devDependencies": {
-      "preact": "^10.11.2"
+      "@angular/core": "^14.2.10"
     }
   }
 ]

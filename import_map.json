@@ -6,6 +6,6 @@
     "@typed/dialogs": "https://deno.land/x/bfsx_std@0.1.9/packages/plugin/dialogs/bfcsDialogsType.ts",
     "@typed/keyboard": "https://deno.land/x/bfsx_std@0.1.9/packages/plugin/keyboard/bfcsKeyboardType.ts",
     "@typed/icon": "https://deno.land/x/bfsx_std@0.1.9/packages/plugin/icon/bfcsIconType.ts",
-    "@code/topbar": "https://deno.land/x/bfsx_std@0.1.9/packages/plugin/topbar/bfcsTopBarType.ts"
+    "@namespace/color": "https://deno.land/x/bfsx_std@0.1.9/packages/plugin/types/colorType.ts"
   }
 }
