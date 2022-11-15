@@ -22,6 +22,7 @@ declare global {
       "dweb-dialog-prompt": DwebDialogPromptProps;
       "dweb-dialog-confirm": DwebDialogConfirmProps;
       "dweb-dialog-warning": DwebDialogConfirmProps;
+      "dweb-dialog-button": DwebDialogButtonProps;
       "dweb-icon": DwebIconProps;
       "dweb-keyboard": DwebKeyboardProps;
       "dweb-messager": {};
@@ -96,27 +97,32 @@ declare global {
             React.HTMLAttributes<HTMLElement>,
             HTMLElement
           >,
-          keyof Dialogs.IAlertConfig
+          keyof Dialogs.DwebDialogsAlert
         >,
-        Dialogs.IAlertConfig {}
+        Dialogs.DwebDialogsAlert {}
     interface DwebDialogPromptProps
       extends Omit<
           React.DetailedHTMLProps<
             React.HTMLAttributes<HTMLElement>,
             HTMLElement
           >,
-          keyof Dialogs.IPromptConfig
+          keyof Dialogs.DwebDialogsPrompt
         >,
-        Dialogs.IPromptConfig {}
+        Dialogs.DwebDialogsPrompt {}
     interface DwebDialogConfirmProps
       extends Omit<
           React.DetailedHTMLProps<
             React.HTMLAttributes<HTMLElement>,
             HTMLElement
           >,
-          keyof Dialogs.IConfirmConfig
+          keyof Dialogs.DwebDialogsConfirm
         >,
-        Dialogs.IConfirmConfig {}
+        Dialogs.DwebDialogsConfirm {}
+    interface DwebDialogButtonProps
+      extends React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLElement>,
+        HTMLElement
+      > {}
     // icon
     interface DwebIconProps
       extends React.DetailedHTMLProps<

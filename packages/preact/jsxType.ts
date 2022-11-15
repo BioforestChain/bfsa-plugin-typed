@@ -22,6 +22,7 @@ declare global {
       "dweb-dialog-prompt": DwebDialogPromptProps;
       "dweb-dialog-confirm": DwebDialogConfirmProps;
       "dweb-dialog-warning": DwebDialogConfirmProps;
+      "dweb-dialog-button": DwebDialogButtonProps;
       "dweb-icon": DwebIconProps;
       "dweb-keyboard": DwebKeyboardProps;
       "dweb-messager": {};
@@ -96,27 +97,32 @@ declare global {
             preact.createElement.JSX.HTMLAttributes<HTMLElement>,
             HTMLElement
           >,
-          keyof Dialogs.IAlertConfig
+          keyof Dialogs.DwebDialogsAlert
         >,
-        Dialogs.IAlertConfig {}
+        Dialogs.DwebDialogsAlert {}
     interface DwebDialogPromptProps
       extends Omit<
           preact.createElement.JSX.DetailedHTMLProps<
             preact.createElement.JSX.HTMLAttributes<HTMLElement>,
             HTMLElement
           >,
-          keyof Dialogs.IPromptConfig
+          keyof Dialogs.DwebDialogsPrompt
         >,
-        Dialogs.IPromptConfig {}
+        Dialogs.DwebDialogsPrompt {}
     interface DwebDialogConfirmProps
       extends Omit<
           preact.createElement.JSX.DetailedHTMLProps<
             preact.createElement.JSX.HTMLAttributes<HTMLElement>,
             HTMLElement
           >,
-          keyof Dialogs.IConfirmConfig
+          keyof Dialogs.DwebDialogsConfirm
         >,
-        Dialogs.IConfirmConfig {}
+        Dialogs.DwebDialogsConfirm {}
+    interface DwebDialogButtonProps
+      extends preact.createElement.JSX.DetailedHTMLProps<
+        preact.createElement.JSX.HTMLAttributes<HTMLElement>,
+        HTMLElement
+      > {}
     // icon
     interface DwebIconProps
       extends preact.createElement.JSX.DetailedHTMLProps<

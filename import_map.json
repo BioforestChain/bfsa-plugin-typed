@@ -1,11 +1,11 @@
 {
   "imports": {
-    "@typed/bottombar": "https://deno.land/x/bfsx_std@0.1.5/packages/plugin/bottombar/bfcsBottomBarType.ts",
-    "@typed/topbar": "https://deno.land/x/bfsx_std@0.1.5/packages/plugin/topbar/bfcsTopBarType.ts",
-    "@typed/statusbar": "https://deno.land/x/bfsx_std@0.1.5/packages/plugin/statusbar/bfcsStatusBarType.ts",
-    "@typed/dialogs": "https://deno.land/x/bfsx_std@0.1.5/packages/plugin/dialogs/bfcsDialogsType.ts",
-    "@typed/keyboard": "https://deno.land/x/bfsx_std@0.1.5/packages/plugin/keyboard/bfcsKeyboardType.ts",
-    "@typed/icon": "https://deno.land/x/bfsx_std@0.1.5/packages/plugin/icon/bfcsIconType.ts",
-    "@code/topbar": "https://deno.land/x/bfsx_std@0.1.5/packages/plugin/topbar/bfcsTopBarType.ts"
+    "@typed/bottombar": "https://deno.land/x/bfsx_std@0.1.9/packages/plugin/bottombar/bfcsBottomBarType.ts",
+    "@typed/topbar": "https://deno.land/x/bfsx_std@0.1.9/packages/plugin/topbar/bfcsTopBarType.ts",
+    "@typed/statusbar": "https://deno.land/x/bfsx_std@0.1.9/packages/plugin/statusbar/bfcsStatusBarType.ts",
+    "@typed/dialogs": "https://deno.land/x/bfsx_std@0.1.9/packages/plugin/dialogs/bfcsDialogsType.ts",
+    "@typed/keyboard": "https://deno.land/x/bfsx_std@0.1.9/packages/plugin/keyboard/bfcsKeyboardType.ts",
+    "@typed/icon": "https://deno.land/x/bfsx_std@0.1.9/packages/plugin/icon/bfcsIconType.ts",
+    "@code/topbar": "https://deno.land/x/bfsx_std@0.1.9/packages/plugin/topbar/bfcsTopBarType.ts"
   }
 }
