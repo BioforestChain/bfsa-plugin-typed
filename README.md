@@ -21,13 +21,30 @@ const title = "vue3";
 #### react使用
 > npm i @bfsx/plugin-typed-react --save
 ```tsx
-import { BfcsTopBar } from "@bfsx/plugin";
+import { useEffect } from "react";
+import { BfcsTopBar, BfcsTopBarButton } from "@bfsx/plugin";
 import "@bfsx/plugin-typed-react";
 
 function App() {
+
+    useEffect(() => {
+        // onClick事件无效，只能通过下面的方式监听click事件
+        const ccc = document.querySelector<BfcsTopBarButton>("#ccc")!;
+        ccc.addEventListener("click", () => {
+            console.log("点击事件");
+        });
+    });
+
     return (
         <div className="App">
-            <dweb-top-bar title={"title"} className="topbar"></dweb-top-bar>
+            <dweb-top-bar title={"title"} className="topbar">
+                <dweb-top-bar-button id="ccc">
+                    <dweb-icon
+                        source="https://objectjson.waterbang.top/test-vue3/vite.svg"
+                        type="AssetIcon"
+                    ></dweb-icon>
+                </dweb-top-bar-button>
+            </dweb-top-bar>
         </div>
     )
 }
